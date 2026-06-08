@@ -6,7 +6,6 @@
 header {
     height: 100px;
     width: 100%;
-
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,7 +17,7 @@ ul {
     justify-content: space-around;
     align-items: center;
     gap: 30px;
-    font-size:20px;
+    font-size: 20px;
 }
 
 .side {
@@ -26,7 +25,61 @@ ul {
     color: rgb(180, 66, 85);
 }
 
-a{
+a {
     text-decoration: none;
     color: rgb(141, 42, 63);
+}
+
+.first {
+
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(245, 232, 156);
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.one,
+.two,
+.three,
+.four {
+    height: 100%;
+    width: 50%;
+    background-color: darksalmon;
+}
+
+marquee {
+    display: flex;
+    gap: 5px;
+    background-color: rgb(245, 245, 165);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(170, 30, 37);
+}
+
+.second {
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(245, 232, 156);
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+   
+
+.side1,
+.side2,
+.side3,
+.side4 {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(255, 142, 164) ;
 }
